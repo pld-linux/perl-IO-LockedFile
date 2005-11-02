@@ -5,7 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	IO
 %define	pnam	LockedFile
-Summary:	IO::LockedFile Class - supply object methods for locking files
+Summary:	IO::LockedFile - supply object methods for locking files
+Summary(pl):	IO::LockedFile - metody obiektów do blokowania blików
 Name:		perl-IO-LockedFile
 Version:	0.23
 Release:	0.1
@@ -20,10 +21,16 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-In its simplistic use, the IO::LockedFile class gives us the same 
-interface of the IO::File class with the unique difference that the 
-files we deal with are locked using the Flock mechanism (using the 
+In its simplistic use, the IO::LockedFile class gives us the same
+interface of the IO::File class with the unique difference that the
+files we deal with are locked using the Flock mechanism (using the
 flock function).
+
+%description -l pl
+W najprostszym zastosowaniu klasa IO::LockedFile udostêpnia ten sam
+interfejs, co klasa IO::File z jedyn± ró¿nic± polegaj±c± na tym, ¿e
+pliki s± blokowane przy u¿yciu mechanizmu Flock (przy u¿yciu funkcji
+flock).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
