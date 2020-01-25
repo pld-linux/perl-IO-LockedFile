@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests		# perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	IO
 %define	pnam	LockedFile
 Summary:	IO::LockedFile - supply object methods for locking files
