@@ -8,7 +8,7 @@ Summary:	IO::LockedFile - supply object methods for locking files
 Summary(pl.UTF-8):	IO::LockedFile - metody obiektów do blokowania blików
 Name:		perl-IO-LockedFile
 Version:	0.23
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
